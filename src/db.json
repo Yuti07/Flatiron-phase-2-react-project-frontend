@@ -1,0 +1,70 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Vegan Mac and Cheese",
+        "ingredients": ["Pasta", "Cashews", "Sweet Potato","Yellow Potato"],
+        "instructions": "Cook pasta and and make creamy cashews sauce , add sweet potato and yellow potato to good texture, Vegan Mac and Cheese is ready!"
+      },
+      {
+        "id": 2,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 3,
+        "title": "Vegan Pancakes",
+        "ingredients": ["Wheat Flour", "Almond Milk", "Avocado Oil","Baking Powder","Maple Syrup"],
+        "instructions": "Mix wheat flour, Almond milk and avocado oil together , along with little baking powder,let batter rest for sometime and then slowly cook them, add Maple syrup and choice of your fruit aand enjoy"
+      },
+      {
+        "id": 4,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 5,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 6,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 7,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+
+      {
+        "id": 8,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 9,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      },
+      {
+        "id": 10,
+        "title": "Vegan Stir-Fry",
+        "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
+        "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!"
+      }
+
+
+
+
+
+    ]
+  }
