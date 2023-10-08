@@ -6,12 +6,11 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Recipe List</Link></li>
-        <li><Link to="/form">Add Recipe</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/search">Search</Link></li>
       </ul>
     </nav>
   );
 };
 
 export default NavBar;
-

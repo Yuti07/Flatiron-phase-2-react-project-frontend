@@ -1,23 +1,27 @@
 // RecipeList.js
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    // Fetch recipes from the backend
-    axios.get('http://localhost:3001/recipes')
-      .then(response => setRecipes(response.data))
+    // Fetch recipes from Spoonacular API
+    const apiKey = 'YOUR_SPOONACULAR_API_KEY';
+    axios.get(`https://api.spoonacular.com/recipes/random?number=5&apiKey=${apiKey}`)
+      .then(response => setRecipes(response.data.recipes))
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
 
   return (
     <div>
-      <h2>Recipe List</h2>
+      <h2>Featured Recipes</h2>
       <ul>
         {recipes.map(recipe => (
-          <li key={recipe.id}>{recipe.title}</li>
+          <li key={recipe.id}>
+            <Link to={`/recipes/${recipe.id}`}>{recipe.title}</Link>
+          </li>
         ))}
       </ul>
     </div>

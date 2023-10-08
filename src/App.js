@@ -1,35 +1,26 @@
-import React, { useState } from 'react';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/Navbar';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
 import RecipeList from './components/RecipeList';
-import RecipeForms from './components/RecipeForms';
+import RecipeDetails from './components/RecipeDetails';
+import SearchForm from './components/SearchForm';
+import NavBar from './components/NavBar';
 
 function App() {
-  const [recipes, setRecipes] = useState([]);
-
-  const addRecipe = (newRecipe) => {
-    setRecipes([...recipes, newRecipe]);
-  }
   return (
-      <Router>
-        <div>
-          <Navbar />
-          <Switch>
-            <Route path="/recipes">
-              <RecipeList />
-            </Route>
-            <Route path="/add">
-              <RecipeForm addRecipe={addRecipe} />
-            </Route>
-            <Route path="/">
-              <h2>Home</h2>
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
+    <Router>
+      <div>
+        <Header />
+        <NavBar />
+        <Switch>
+          <Route path="/recipes/:id" component={RecipeDetails} />
+          <Route path="/search" component={SearchForm} />
+          <Route path="/" exact component={RecipeList} />
+        </Switch>
+      </div>
+    </Router>
+  );
+}
 
-export default App
+export default App;
