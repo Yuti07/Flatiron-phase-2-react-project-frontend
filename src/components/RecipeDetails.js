@@ -7,13 +7,18 @@ const RecipeDetails = () => {
   const { id } = useParams();
   const [recipe, setRecipe] = useState(null);
 
-  useEffect(() => {
+// RecipeDetails.js
+// ... (existing code)
+
+useEffect(() => {
     // Fetch recipe details from Spoonacular API
-    const apiKey = 'YOUR_SPOONACULAR_API_KEY';
+    const apiKey = 'YOUR_SPOONACULAR_API_KEY'; // Replace with your API key
     axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${apiKey}`)
       .then(response => setRecipe(response.data))
       .catch(error => console.error('Error fetching recipe details:', error));
   }, [id]);
+
+  // ... (existing code)
 
   if (!recipe) {
     return <div>Loading...</div>;

@@ -6,6 +6,7 @@ import RecipeList from './components/RecipeList';
 import RecipeDetails from './components/RecipeDetails';
 import SearchForm from './components/SearchForm';
 import NavBar from './components/NavBar';
+import './index.css';
 
 function App() {
   return (
