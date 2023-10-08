@@ -1,20 +1,20 @@
 // RecipeList.js
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    // Fetch recipes from API
-    // Example: Fetching from a json-server
-    fetch('http://localhost:3000/recipes')
-      .then(res => res.json())
-      .then(data => setRecipes(data));
+    // Fetch recipes from the backend
+    axios.get('http://localhost:3001/recipes')
+      .then(response => setRecipes(response.data))
+      .catch(error => console.error('Error fetching recipes:', error));
   }, []);
 
   return (
     <div>
-      <h2>Recipes</h2>
+      <h2>Recipe List</h2>
       <ul>
         {recipes.map(recipe => (
           <li key={recipe.id}>{recipe.title}</li>
@@ -22,6 +22,6 @@ const RecipeList = () => {
       </ul>
     </div>
   );
-}
+};
 
 export default RecipeList;

@@ -1,17 +1,17 @@
-// Navbar.js
+// NavBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/recipes">Recipes</Link></li>
-        <li><Link to="/add">Add Recipe</Link></li>
+        <li><Link to="/">Recipe List</Link></li>
+        <li><Link to="/form">Add Recipe</Link></li>
       </ul>
     </nav>
   );
-}
+};
 
-export default Navbar;
+export default NavBar;
+
