@@ -5,12 +5,10 @@ import axios from 'axios';
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
-
-  // RecipeList.js
   useEffect(() => {
-    // Fetch recipes from Spoonacular API
-    const apiKey = 'YOUR_SPOONACULAR_API_KEY'; // Replace with your API key
-    axios.get(`https://api.spoonacular.com/recipes/random?number=5&apiKey=${apiKey}`)
+    // Fetching recipes from  API
+    const apiKey = 'http://localhost:3000/recipes';
+    axios.get(`http://localhost:3000/recipes/${id}`)
       .then(response => setRecipes(response.data.recipes))
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
