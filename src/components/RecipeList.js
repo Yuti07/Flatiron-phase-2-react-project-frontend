@@ -5,11 +5,11 @@ import axios from 'axios';
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
+
   useEffect(() => {
-    // Fetching recipes from  API
-    const apiKey = 'http://localhost:3000/recipes';
-    axios.get(`http://localhost:3000/recipes/${id}`)
-      .then(response => setRecipes(response.data.recipes))
+    // Fetching recipes from API
+    axios.get('http://localhost:3000/recipes')
+      .then(response => setRecipes(response.data))
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
 
