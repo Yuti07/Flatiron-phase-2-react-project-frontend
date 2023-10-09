@@ -9,7 +9,7 @@ const SearchForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Redirect to search results
-    history.push(`/search?q=${query}`);
+    history.push(`/search?q=${encodeURIComponent(query)}`);
   };
 
   return (
