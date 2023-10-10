@@ -13,7 +13,7 @@ const RecipeDetails = () => {
   // Effect hook to fetch recipe details when the component mounts or 'id' changes
   useEffect(() => {
     // Fetching recipe details from the API using Axios
-    axios.get(`http://localhost:3000/recipes/${id}`)
+    axios.get(`http://localhost:5173/recipes/${id}`)
       .then(response => setRecipe(response.data))
       .catch(error => console.error('Error fetching recipe details:', error));
   }, [id]);

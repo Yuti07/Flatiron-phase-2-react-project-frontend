@@ -9,7 +9,7 @@ const RecipeList = () => {
   // Effect hook to fetch recipes when the component mounts
   useEffect(() => {
     // Fetching recipes from the API using Axios
-    axios.get('http://localhost:3000/recipes')
+    axios.get('http://localhost:5173/recipes')
       .then(response => setRecipes(response.data))
       .catch(error => console.error('Error fetching recipes:', error));
   }, []);
