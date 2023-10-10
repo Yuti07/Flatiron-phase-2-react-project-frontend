@@ -20,7 +20,7 @@ const RecipeDetails = () => {
 
   // If recipe details are not available yet, show a loading message
   if (!recipe) {
-    return <div>Loading...</div>;
+    return <div>Loading</div>;
   }
 
   // Rendering the recipe details

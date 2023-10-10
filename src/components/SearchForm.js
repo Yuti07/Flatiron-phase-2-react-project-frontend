@@ -1,4 +1,3 @@
-// SearchForm.js
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
@@ -14,7 +13,7 @@ const SearchForm = () => {
 
   return (
     <div>
-      <h2>Search Recipes</h2>
+      <h2>Search recipes </h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

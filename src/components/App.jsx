@@ -6,7 +6,7 @@ import RecipeList from './RecipeList';
 import RecipeDetails from './RecipeDetails';
 import SearchForm from './SearchForm';
 import NavBar from './NavBar';
-import './index.css';
+import '/src/index.css';
 
 function App() {
   return (
