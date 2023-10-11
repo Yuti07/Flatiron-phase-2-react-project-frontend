@@ -1,11 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# React Setup
+In your VsCode terminal, enter the comments below in an order. npm install should install all the dependencies that is necessary to run the code. npm install react-router-dom@5 makes sure that the the project uses router5 because React router-6 has different features that is not used in this project. npm run dev to run backend server in development mode. This command will use your localhost, probably port 5173.
 
 
 
@@ -50,3 +44,6 @@ Netlify
 
 License
 This project is licensed under the MIT License.
+
+
+Happy cooking with Veggie Leaf! 🌱🍅
