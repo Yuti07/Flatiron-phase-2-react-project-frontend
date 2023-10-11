@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 
 const RecipeList = () => {
   // State to hold the list of recipes
@@ -15,7 +14,7 @@ const RecipeList = () => {
   }, []);
 
   return (
-    <div>
+    <div >
       {/* Displaying a heading for the recipe list */}
       <h2>Featured Recipes </h2>
       {/* Displaying a list of recipes with links to their details */}

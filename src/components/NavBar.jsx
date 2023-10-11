@@ -6,6 +6,7 @@ const NavBar = () => {
     <nav>
       <ul>
         <li><Link to="/search">Search</Link></li>
+        {/* Nullish coalescing check for the 'to' prop */}
         <li><Link to="/">Home</Link></li>
       </ul>
     </nav>
