@@ -36,14 +36,22 @@ Veggie Leaf is a web application meticulously crafted to simplify your cooking e
   ```bash
   npm start
   Open your browser and navigate to http://localhost:5173 to explore Veggie Leaf.
+  ```
 
- Tech Stack
+
+TECH STACK
 React
 React Router
 Netlify
 
-License
+
+
+LICENSE
 This project is licensed under the MIT License.
 
 
-Happy cooking with Veggie Leaf! 🌱🍅
+CONTRIBUTING
+If you'd like to contribute to Veggie Leaf, please follow our Contribution Guidelines.
+
+
+HAPPY COOKING WITH VEGGIE LEAF 🌱🍅
