@@ -32,3 +32,21 @@ Veggie Leaf is a web application meticulously crafted to simplify your cooking e
 
    ```bash
    git clone https://github.com/Yuti07/Flatiron-phase-2-react-project-frontend/tree/main
+
+  1. Install dependencies:
+  ```bash
+  cd veggie-leaf
+  npm install
+
+2.Run the app:
+  ```bash
+  npm start
+  Open your browser and navigate to http://localhost:5173 to explore Veggie Leaf.
+
+ Tech Stack
+React
+React Router
+Netlify
+
+License
+This project is licensed under the MIT License.
