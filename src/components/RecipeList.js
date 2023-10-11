@@ -17,8 +17,7 @@ const RecipeList = () => {
   return (
     <div>
       {/* Displaying a heading for the recipe list */}
-      <h2>Featured Recipes</h2>
-
+      <h2>Featured Recipes </h2>
       {/* Displaying a list of recipes with links to their details */}
       <ul>
         {recipes.map(recipe => (
