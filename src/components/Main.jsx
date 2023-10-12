@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import App from '/src/components/App.jsx'
+//import App from './App.jsx'
 import '/src/index.css'
 
 const renderApp = async () => {
