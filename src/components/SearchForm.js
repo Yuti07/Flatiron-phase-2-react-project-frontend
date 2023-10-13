@@ -4,7 +4,6 @@ import { useHistory } from 'react-router-dom';
 const SearchForm = () => {
   const [query, setQuery] = useState('');
   const history = useHistory();
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Redirect to search results
