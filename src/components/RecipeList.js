@@ -20,8 +20,7 @@ const RecipeList = () => {
         {recipes.map(recipe => (
           <li key={recipe.id}>
             <Link to={`/recipes/${recipe.id}`}>
-              {/* Displaying the image and title for each recipe */}
-              <img src={process.env.PUBLIC_URL.images + "images/Baked Potato.jpg" } alt={recipe.title} />
+            {/* Displaying recipes links */}
               <p>{recipe.title}</p>
             </Link>
           </li>

@@ -26,12 +26,10 @@ const RecipeDetails = () => {
         <>
           {/* Displaying the recipe title */}
           <h2>{recipe.title}</h2>
+          <h6>Ingredients: </h6><p>{recipe.ingredients.join(', ')}</p>
+          <h6>Instructions: </h6><p>{recipe.instructions}</p>
           {/* Displaying an image related to the recipe */}
-          <img src={process.env.PUBLIC_URL + '/VeggieLeaf.png'} alt={recipe.title} />
-          {/* Displaying the list of ingredients */}
-          <p>{recipe.ingredients.join(', ')}</p>
-          {/* Displaying the recipe instructions */}
-          <p>{recipe.instructions}</p>
+          <img src={process.env.PUBLIC_URL + '/' + recipe.image } alt={recipe.title} />
         </>
       ) : (
         <div>Loading...</div>

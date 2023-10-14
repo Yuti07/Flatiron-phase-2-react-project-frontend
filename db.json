@@ -5,70 +5,70 @@
         "title": "Vegan Mac and Cheese",
         "ingredients": ["Pasta", "Cashews", "Sweet Potato","Yellow Potato"],
         "instructions": "Cook pasta and and make creamy cashews sauce , add sweet potato and yellow potato to good texture, Vegan Mac and Cheese is ready!",
-        "image": "public/Images/vegan M&C.jpg"
+        "image": "/Images/vegan_M&C.jpg"
       },
       {
         "id": 2,
         "title": "Vegan Stir-Fry",
         "ingredients": ["Tofu", "Vegetables", "Soy Sauce"],
         "instructions": "Stir-fry tofu and vegetables, add soy sauce. Delicious vegan stir-fry ready!",
-        "image": "public/Images/vegan stir fry.jpg"
+        "image": "/Images/vegan_stir_fry.jpg"
       },
       {
         "id": 3,
         "title": "Vegan Pancakes",
         "ingredients": ["Wheat Flour", "Almond Milk", "Avocado Oil","Baking Powder","Maple Syrup"],
         "instructions": "Mix wheat flour, Almond milk and avocado oil together , along with little baking powder,let batter rest for sometime and then slowly cook them, add Maple syrup and choice of your fruit aand enjoy",
-        "image": "public/Images/Vegan Pancakes.jpg"
+        "image": "/Images/Vegan_Pancakes.jpg"
       },
       {
         "id": 4,
         "title": "Vegan Burrito",
         "ingredients": ["Spanish Rice", "Black Beans", "Guacamole","Pickled Onions","Tortillas","Spinach","Bell Peppers","Salsa Dip"],
         "instructions": "Place the tortillas on a flat, clean work surface. Add a layer of spinach followed by the rice, beans, peppers, guacamole,bell peppers and onions, fold the toritlla and enjoy it with salsa dip!",
-        "image": "public/Images/Vegan Burrito.jpg"
+        "image": "/Images/Vegan_Burrito.jpg"
       },
       {
         "id": 5,
         "title": " Veggie Fajitas",
         "ingredients": ["Mushrooms", "Guacamole", "Bell Peppers","Black Beans","Pickled Onions","Cilantro","Tomato"],
         "instructions": "Stir-fry mushrooms, onions,bell peppers in a pan, add boiled black beans to it, add this mixture to tortilla and top it with chopped onions tomatoes and clintro!",
-        "image": "public/Images/Veggie Fajitas.jpg"
+        "image": "/Images/Veggie_Fajitas.jpg"
       },
       {
         "id": 6,
         "title": "Eggplant Lasagna",
         "ingredients": ["Eggplant", "Tomato Sauce", "Cheese Fillings","Basil Leaves"],
         "instructions": "Add tomato sauce in a baking pan, top it with roasted eggplant , top it with cheese fillings , repeat these layers and baki it , final Garnish it with basil leaves!",
-        "image": "public/Images/Eggplant Lasagna.jpg"
+        "image": "/Images/Eggplant_Lasagna.jpg"
       },
       {
         "id": 7,
         "title": "Stuffed Peppers",
         "ingredients": ["Bell Peppers", "Rice/Potato", "Cheese"],
         "instructions": "Roast bell peppers, add rice or potato filling as per your choice and top it with cheese, broil untill chesse melts and stuffed peppers are ready!",
-        "image": "public/Images/Stuffed Peppers.jpg"
+        "image": "/Images/Stuffed_Peppers.jpg"
       },
       {
         "id": 8,
         "title": "Baked Potato",
         "ingredients": ["Potato/Sweet Potato", "Sour Cream", "Butter"],
         "instructions": "Poke potatoes with fork so as to have holes in them , heat them in the oven with some salt ,once cooled off, add sour cream and butter, enjoy!",
-        "image": "public/Images/Baked Potato.jpg"
+        "image": "/Images/Baked_Potato.jpg"
       },
       {
         "id": 9,
         "title": "Quinoa Salad",
         "ingredients": ["Quinoa", "Roasted Tomatoes", "Cucumbers","Red Onions","Feta Cheese","Mixed Herbs","Olive oil dressing"],
         "instructions": "Mix veggies with boiled quinoa, add cheese and garnish it with olive oil dressing and mix herbs!",
-        "image": "public/Images/Quinoa Salad.jpg"
+        "image": "/Images/Quinoa_Salad.jpg"
       },
       {
         "id": 10,
         "title": "Vegetarian Chili",
         "ingredients": ["Onion", "Garlic", "red Bell Perppers","Kidney Beans","lime","Olive oil dressing","Corn Kernels"],
         "instructions": "Add boiled kidney beans, to roasted onions and bell peppers, garlic and boiled corn kernels,garnish it with lime and olive oil dressing, serve it Hot!",
-        "image": "public/Images/Vegetarian Chili.jpg"
+        "image": "/Images/Vegetarian_Chili.jpg"
       }
     ]
   }
