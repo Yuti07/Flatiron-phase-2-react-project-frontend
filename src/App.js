@@ -18,8 +18,8 @@ function App() {
           <Route path="/recipes/:id" component={RecipeDetails} />
           <Route path="/search" component={SearchForm} />
           <Route path="/" exact component={RecipeList} />
-          <Route path="/Contact" exact component={Contact} />
         </Switch>
+        <Route path="/Contact" exact component={Contact} />
       </div>
     </Router>
   );
