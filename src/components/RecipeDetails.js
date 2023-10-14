@@ -16,9 +16,6 @@ const RecipeDetails = () => {
   }, [id]);
 
   // Add If recipe details are not available yet, show a loading message
-
-
-
   return (
     <div>
       {/* Nullish coalescing check */}
@@ -29,7 +26,7 @@ const RecipeDetails = () => {
           <h6>Ingredients: </h6><p>{recipe.ingredients.join(', ')}</p>
           <h6>Instructions: </h6><p>{recipe.instructions}</p>
           {/* Displaying an image related to the recipe */}
-          <img src={process.env.PUBLIC_URL + '/' + recipe.image } alt={recipe.title} />
+          <img src={process.env.PUBLIC_URL + '/' + recipe.image} alt={recipe.title}/>
         </>
       ) : (
         <div>Loading...</div>

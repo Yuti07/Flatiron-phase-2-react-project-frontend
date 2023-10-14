@@ -106,7 +106,7 @@ body {
   justify-content: center;
   min-width: 30px;
   min-height: 10vh;
-  background-image: url('/home/thakkar/Development/code/phase2/flatiron-phase-2-react-project-frontend/public/VeggieLeaf.png');
+  background-image: url('/public/VeggieLeaf.png');
   background-size: cover;
   background-position: top;
   background-color: #6a474d;
