@@ -5,8 +5,8 @@ import RecipeList from './components/RecipeList';
 import RecipeDetails from './components/RecipeDetails';
 import SearchForm from './components/SearchForm';
 import NavBar from './components/NavBar';
+import Contact from './components/Contact';
 import './index.css';
-
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route path="/recipes/:id" component={RecipeDetails} />
           <Route path="/search" component={SearchForm} />
           <Route path="/" exact component={RecipeList} />
+          <Route path="/Contact" exact component={Contact} />
         </Switch>
       </div>
     </Router>
