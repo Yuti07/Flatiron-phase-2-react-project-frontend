@@ -2,16 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
+  // Add basic styling for NavLinks
+  const linkStyles = {
+    display: "inline-block",
+    width: "50px",
+    padding: "12px",
+    margin: "0 6px 6px",
+    background: "blue",
+    textDecoration: "none",
+    color: "white",
+    }
   return (
-    <nav>
-      <ul>
-        <li><Link to="/search">Search</Link></li>
-        {/* <li><Link to="/add_new_recipe">Add New Recipe</Link></li> */}
-        {/* Nullish coalescing check for the 'to' prop */}
-        <li><Link to="/">Home</Link></li>
-      </ul>
-    </nav>
+    <>
+      <Link to="/" style={linkStyles} activeStyle={{background: "darkblue"}}>Home</Link>
+      <Link to="/search" style={linkStyles} activeStyle={{background: "darkblue"}}>Search</Link>
+      <Link to="/contact" style={linkStyles} activeStyle={{background: "darkblue"}}>Contact</Link>
+    </>
   );
 };
+
 
 export default NavBar;
