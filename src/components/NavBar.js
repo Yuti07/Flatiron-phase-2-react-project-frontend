@@ -16,9 +16,9 @@ const NavBar = () => {
     <>
       <Link to="/" style={linkStyles}>🏠 Home</Link>
       <Link to="/search" style={linkStyles}>🔍 Search</Link>
+      <Link to="/addnewrecipe" style={linkStyles}>➕ Add New Recipe</Link>
     </>
   );
 };
-
 
 export default NavBar;
