@@ -55,35 +55,11 @@ button {
   transition: background-color 0.3s, border-color 0.3s; /* Added smooth transitions */
 }
 
-button:hover {
-  border-color: #823da1;
-  background-color: #1c1313; /* Darken background on hover */
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 /* Light mode styles */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #FFFFFF;
-  }
-
-  a:hover {
-    color: #747BFF;
-  }
-
-  button {
-    background-color: #837878;
-    color: #393737;
-  }
-
-  button:hover {
-    border-color: #747BFF;
-    background-color: #E0E0E0;
   }
 }
 
