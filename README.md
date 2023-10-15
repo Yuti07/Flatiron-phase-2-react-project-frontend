@@ -1,11 +1,10 @@
 # MY RECIPE BOOK
 
-App-frontend-link: [Here] https://nimble-semolina-168add.netlify.app/
-App-backend-link: [Here] https://backend-phase-2-project-tdz5.onrender.com
+App-frontend-link [Here](https://nimble-semolina-168add.netlify.app/)
 
+App-backend-link [Here] (https://backend-phase-2-project-tdz5.onrender.com/)
 
-
-
+Welcome to my project at Flatiron, a web app built with React for frontend, and json server for backend
 
 # Getting Started with Create React App
 
