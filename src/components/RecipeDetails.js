@@ -5,8 +5,10 @@ import axios from 'axios';
 const RecipeDetails = () => {
   // Extracting the 'id' parameter from the URL using the 'useParams' hook
   const { id } = useParams();
+
   // State to hold the details of the recipe
   const [recipe, setRecipe] = useState(null);
+
   // Effect hook to fetch recipe details when the component mounts or 'id' changes
   useEffect(() => {
     // Fetching recipe details from the API using Axios
@@ -15,13 +17,13 @@ const RecipeDetails = () => {
       .catch(error => console.error('Error fetching recipe details:', error));
   }, [id]);
 
-    const [isFavorite, setIsFavorite] = useState(false)
-    function handleFavoriteClick (){
-      setIsFavorite(!isFavorite)
-    }
-  // Add If recipe details are not available yet, show a loading message
+  const [isFavorite, setIsFavorite] = useState(false)
+  function handleFavoriteClick (){
+    setIsFavorite(!isFavorite)
+  }
+
   return (
-    <div>
+    <>
       {/* Nullish coalescing check */}
       {recipe ? (
         <>
@@ -35,14 +37,16 @@ const RecipeDetails = () => {
             </span>
           </h2>
           <p>Ingredients: {recipe.ingredients.join(', ')}</p>
+
           <p>Instructions: {recipe.instructions}</p>
+
           {/* Displaying an image related to the recipe */}
           <img src={process.env.PUBLIC_URL + '/' + recipe.image} alt={recipe.title}/>
         </>
       ) : (
         <div>Loading...</div>
       )}
-    </div>
+    </>
   );
 };
 
