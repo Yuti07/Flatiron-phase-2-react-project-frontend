@@ -9,7 +9,7 @@ const SearchForm = () => {
   useEffect(() => {
     // Fetching recipes from the API using Axios
     axios
-      .get('http://localhost:5000/recipes')
+      .get('https://backend-phase-2-project-tdz5.onrender.com/recipes')
       .then((response) => setRecipes(response.data))
       .catch((error) => console.error('Error fetching recipes:', error));
   }, []);
