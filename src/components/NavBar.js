@@ -5,7 +5,7 @@ const NavBar = () => {
   // Add basic styling for NavLinks
   const linkStyles = {
     display: "inline-block",
-    width: "50px",
+    width: "auto",
     padding: "12px",
     margin: "0 6px 6px",
     background: "blue",
@@ -14,8 +14,8 @@ const NavBar = () => {
     }
   return (
     <>
-      <Link to="/" style={linkStyles}>Home</Link>
-      <Link to="/search" style={linkStyles} >Search</Link>
+      <Link to="/" style={linkStyles}>🏠 Home</Link>
+      <Link to="/search" style={linkStyles}>🔍 Search</Link>
     </>
   );
 };
