@@ -15,6 +15,10 @@ const RecipeDetails = () => {
       .catch(error => console.error('Error fetching recipe details:', error));
   }, [id]);
 
+    const [isFavorite, setIsFavorite] = useState(false)
+    function handleFavoriteClick (){
+      setIsFavorite(!isFavorite)
+    }
   // Add If recipe details are not available yet, show a loading message
   return (
     <div>
@@ -22,7 +26,14 @@ const RecipeDetails = () => {
       {recipe ? (
         <>
           {/* Displaying the recipe title */}
-          <h2>{recipe.title}</h2>
+          <h2>{recipe.title}
+            <span>
+              {isFavorite ?
+              (<button onClick={handleFavoriteClick}> ★</button>)
+              :
+              (<button onClick={handleFavoriteClick}> ☆</button>)}
+            </span>
+          </h2>
           <p>Ingredients: {recipe.ingredients.join(', ')}</p>
           <p>Instructions: {recipe.instructions}</p>
           {/* Displaying an image related to the recipe */}

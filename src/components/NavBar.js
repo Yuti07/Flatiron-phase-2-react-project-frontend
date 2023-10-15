@@ -14,9 +14,8 @@ const NavBar = () => {
     }
   return (
     <>
-      <Link to="/" style={linkStyles} activeStyle={{background: "darkblue"}}>Home</Link>
-      <Link to="/search" style={linkStyles} activeStyle={{background: "darkblue"}}>Search</Link>
-      <Link to="/contact" style={linkStyles} activeStyle={{background: "darkblue"}}>Contact</Link>
+      <Link to="/" style={linkStyles}>Home</Link>
+      <Link to="/search" style={linkStyles} >Search</Link>
     </>
   );
 };
