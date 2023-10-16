@@ -4,7 +4,7 @@ App-frontend-link [Here](https://nimble-semolina-168add.netlify.app/)
 
 App-backend-link [Here](https://backend-phase-2-project-tdz5.onrender.com/)
 
-Video-link [Here](https://www.youtube.com/watch?v=rKpRP6rq0dc/)
+Video-link [Here](https://www.youtube.com/watch?v=Uhk1P2Qq8TQ/)
 
 Welcome to my project at Flatiron, a web app built with React for frontend, and json server for backend
 
